@@ -5,10 +5,10 @@ using namespace std;
 
 int main ()
 {
-    int kode,pri,jml,tot = 0,byr = 0,kem = 0;
+    int kode,pri,jml = 0 ,tot = 0,byr = 0,kem = 0, tot1 = 0;
     string menu[7]={"1. Espresso     = 18k","2. Americano    = 18k","3. Cappuccino   = 26k","4. Latte        = 26k","5. Vanilla      = 28k","6. Caramel      = 28k","7. Macchiato    = 35k"};
-    string top[2]={"1. Ices = 2k","2. Hot"};
-    int i, es, baru = 1, selama, byrulang, pesan, voucher;
+    string top[2]={"1. Ices ","2. Hot"};
+    int i, baru = 1, selama, byrulang, pesan, voucher = 0, es;
 
     tambah :
     while(baru==1)
@@ -50,11 +50,11 @@ while(selama == 1)
         cin>>es;
         if(es==1)
         {
-            es=2000;
-            tot=pri+es;
+            
+            tot=pri;
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=tot*jml;
+            tot1+=tot*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -71,7 +71,7 @@ while(selama == 1)
                 cout<<"Anda mendapat diskon 15%\n";
                 tot=tot-(tot*0.15);
                 ulang :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -104,7 +104,7 @@ while(selama == 1)
                 else
                 {
                     ulang1 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -157,7 +157,7 @@ while(selama == 1)
                 cout<<"Anda mendapat diskon 15%\n";
                 tot=tot-(tot*0.15);
                 ulang2 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -190,7 +190,7 @@ while(selama == 1)
                 else
                 {
                     ulang3 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -242,11 +242,11 @@ while(selama == 1)
         cin>>es;
         if(es==1)
         {
-            es=2000;
-            tot=pri+es;
+            
+            tot=pri;
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=tot*jml;
+            tot1+=tot*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -261,9 +261,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*15/100);
+                tot=tot-(tot*0.15);
                 ulang4 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -296,7 +296,7 @@ while(selama == 1)
                 else
                 {
                     ulang5 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -347,9 +347,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*15/100);
+                tot=tot-(tot*0.15);
                 ulang6 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -382,7 +382,7 @@ while(selama == 1)
                 else
                 {
                     ulang7 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -434,11 +434,11 @@ while(selama == 1)
         cin>>es;
         if(es==1)
         {
-            es=2000;
-            tot=pri+es;
+            
+            tot=pri;
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=tot*jml;
+            tot1+=tot*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -453,9 +453,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*10/100);
+                tot=tot-(tot*0.10);
                 ulang8 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -488,7 +488,7 @@ while(selama == 1)
                 else
                 {
                     ulang9 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -539,9 +539,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*10/100);
+                tot=tot-(tot*0.10);
                 ulang10 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -574,7 +574,7 @@ while(selama == 1)
                 else
                 {
                     ulang11 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -626,11 +626,11 @@ while(selama == 1)
         cin>>es;
         if(es==1)
         {
-            es=2000;
-            tot=pri+es;
+            
+            tot=pri;
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=tot*jml;
+            tot1+=tot*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -646,9 +646,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*15/100);
+                tot=tot-(tot*0.15);
                 ulang12 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -681,7 +681,7 @@ while(selama == 1)
                 else
                 {
                     ulang13 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -733,9 +733,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*15/100);
+                tot=tot-(tot*0.15);
                 ulang14 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -768,7 +768,7 @@ while(selama == 1)
                 else
                 {
                     ulang15 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -820,11 +820,11 @@ while(selama == 1)
         cin>>es;
         if(es==1)
         {
-            es=2000;
-            tot=pri+es;
+            
+            tot=pri;
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=tot*jml;
+            tot1+=tot*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -840,9 +840,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*15/100);
+                tot=tot-(tot*0.15);
                 ulang16 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -875,7 +875,7 @@ while(selama == 1)
                 else
                 {
                     ulang17 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -927,9 +927,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*15/100);
+                tot=tot-(tot*0.15);
                 ulang18 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -962,7 +962,7 @@ while(selama == 1)
                 else
                 {
                     ulang19 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1013,11 +1013,11 @@ while(selama == 1)
         cin>>es;
         if(es==1)
         {
-            es=2000;
-            tot=pri+es;
+            
+            tot=pri;
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=tot*jml;
+            tot1+=tot*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -1033,9 +1033,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*10/100);
+                tot=tot-(tot*0.10);
                 ulang20 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1068,7 +1068,7 @@ while(selama == 1)
                 else
                 {
                     ulang21 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1120,9 +1120,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*10/100);
+                tot=tot-(tot*0.10);
                 ulang22 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1155,7 +1155,7 @@ while(selama == 1)
                 else
                 {
                     ulang23 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1206,11 +1206,11 @@ while(selama == 1)
         cin>>es;
         if(es==1)
         {
-            es=2000;
-            tot=pri+es;
+            
+            tot=pri;
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=tot*jml;
+            tot1+=tot*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -1226,9 +1226,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*10/100);
+                tot=tot-(tot*0.10);
                 ulang24 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1261,7 +1261,7 @@ while(selama == 1)
                 else
                 {
                     ulang25 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1313,9 +1313,9 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*10/100);
+                tot=tot-(tot*0.10);
                 ulang26 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
@@ -1348,7 +1348,7 @@ while(selama == 1)
                 else
                 {
                     ulang27 :
-                cout<<"Total harga = Rp. "<<tot<<endl;
+                cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
                 kem=byr-tot;
