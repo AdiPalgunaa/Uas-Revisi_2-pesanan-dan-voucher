@@ -69,7 +69,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -140,7 +140,7 @@ while(selama == 1)
         {
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=pri*jml;
+            tot1+=pri*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -155,7 +155,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang2 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -261,7 +261,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang4 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -332,7 +332,7 @@ while(selama == 1)
         {
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=pri*jml;
+            tot1+=pri*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -347,7 +347,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang6 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -453,7 +453,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*0.10);
+                tot1=tot1-(tot1*10/100);
                 ulang8 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -524,7 +524,7 @@ while(selama == 1)
         {
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=pri*jml;
+            tot1+=pri*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -539,7 +539,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*0.10);
+                tot1=tot1-(tot1*10/100);
                 ulang10 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -646,7 +646,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang12 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -717,7 +717,7 @@ while(selama == 1)
         {
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=pri*jml;
+            tot1+=pri*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -733,7 +733,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang14 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -840,7 +840,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang16 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -911,7 +911,7 @@ while(selama == 1)
         {
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=pri*jml;
+            tot1+=pri*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -927,7 +927,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 15%\n";
-                tot=tot-(tot*0.15);
+                tot1=tot1-(tot1*15/100);
                 ulang18 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -1033,7 +1033,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*0.10);
+                tot1=tot1-(tot1*10/100);
                 ulang20 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -1104,7 +1104,7 @@ while(selama == 1)
         {
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=pri*jml;
+            tot1+=pri*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -1120,7 +1120,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*0.10);
+                tot1=tot1-(tot1*10/100);
                 ulang22 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -1226,7 +1226,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*0.10);
+                tot1=tot1-(tot1*10/100);
                 ulang24 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
@@ -1297,7 +1297,7 @@ while(selama == 1)
         {
             cout<<"Masukkan Jumlah = ";
             cin>>jml;
-            tot+=pri*jml;
+            tot1+=pri*jml;
             cout<<"Apakah anda ingin menambah pesanan ?\n";
             cout<<"1. Ya || 2. Tidak = ";
             cin>>pesan;
@@ -1313,7 +1313,7 @@ while(selama == 1)
                 if(voucher == 1)
                 {
                 cout<<"Anda mendapat diskon 10%\n";
-                tot=tot-(tot*0.10);
+                tot1=tot1-(tot1*10/100);
                 ulang26 :
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
