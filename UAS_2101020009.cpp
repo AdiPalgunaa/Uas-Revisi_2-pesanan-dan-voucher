@@ -74,8 +74,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -96,7 +96,7 @@ while(selama == 1)
                             goto error;
                         }            
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -107,8 +107,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -129,7 +129,7 @@ while(selama == 1)
                             goto error1;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -160,8 +160,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -182,7 +182,7 @@ while(selama == 1)
                             goto error2;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -193,8 +193,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -215,7 +215,7 @@ while(selama == 1)
                             goto error3;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -266,8 +266,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                if(byr<tot)
+                kem=byr-tot1;
+                if(byr<tot1)
                 {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -288,7 +288,7 @@ while(selama == 1)
                             goto error4;
                         }
                 }
-                else if(byr>=tot)
+                else if(byr>=tot1)
                 {
                 cout<<"Kembali = Rp. "<<kem<<endl;
                 }
@@ -299,8 +299,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                if(byr<tot)
+                kem=byr-tot1;
+                if(byr<tot1)
                 {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -321,7 +321,7 @@ while(selama == 1)
                             goto error5;
                         }
                 }
-                else if(byr>=tot)
+                else if(byr>=tot1)
                 {
                 cout<<"Kembali = Rp. "<<kem<<endl;
                 }
@@ -352,8 +352,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -374,7 +374,7 @@ while(selama == 1)
                             goto error6;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                 cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -385,8 +385,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                  if(byr<tot)
+                kem=byr-tot1;
+                  if(byr<tot1)
                   {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -407,7 +407,7 @@ while(selama == 1)
                             goto error7;
                         }
                   }
-                  else if(byr>=tot)
+                  else if(byr>=tot1)
                   {
                 cout<<"Kembali = Rp. "<<kem<<endl;
                   }
@@ -458,8 +458,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -480,7 +480,7 @@ while(selama == 1)
                             goto error8;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -491,8 +491,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -513,7 +513,7 @@ while(selama == 1)
                             goto error9;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                 cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -544,8 +544,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -566,7 +566,7 @@ while(selama == 1)
                             goto error10;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -577,8 +577,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -599,7 +599,7 @@ while(selama == 1)
                             goto error11;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -651,8 +651,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -673,7 +673,7 @@ while(selama == 1)
                             goto error12;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -684,8 +684,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -706,7 +706,7 @@ while(selama == 1)
                             goto error13;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -738,8 +738,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -760,7 +760,7 @@ while(selama == 1)
                             goto error14;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -771,8 +771,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -793,7 +793,7 @@ while(selama == 1)
                             goto error15;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -845,8 +845,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -867,7 +867,7 @@ while(selama == 1)
                             goto error16;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -878,8 +878,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -900,7 +900,7 @@ while(selama == 1)
                             goto error17;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -932,8 +932,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -954,7 +954,7 @@ while(selama == 1)
                             goto error18;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -965,8 +965,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -987,7 +987,7 @@ while(selama == 1)
                             goto error19;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1038,8 +1038,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1060,7 +1060,7 @@ while(selama == 1)
                             goto error20;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1071,8 +1071,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1093,7 +1093,7 @@ while(selama == 1)
                             goto error21;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1125,8 +1125,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1147,7 +1147,7 @@ while(selama == 1)
                             goto error22;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1158,8 +1158,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1180,7 +1180,7 @@ while(selama == 1)
                             goto error23;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1231,8 +1231,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1253,7 +1253,7 @@ while(selama == 1)
                             goto error24;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1264,8 +1264,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1286,7 +1286,7 @@ while(selama == 1)
                             goto error25;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1318,8 +1318,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1340,7 +1340,7 @@ while(selama == 1)
                             goto error26;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
@@ -1351,8 +1351,8 @@ while(selama == 1)
                 cout<<"Total harga = Rp. "<<tot1<<endl;
                 cout<<"Bayar = Rp. ";
                 cin>>byr;
-                kem=byr-tot;
-                    if(byr<tot)
+                kem=byr-tot1;
+                    if(byr<tot1)
                     {
                     cout<<"==============================\n";
                     cout<<"Maaf Uang anda tidak mencukupi\n";
@@ -1373,7 +1373,7 @@ while(selama == 1)
                             goto error27;
                         }
                     }
-                    else if(byr>=tot)
+                    else if(byr>=tot1)
                     {
                     cout<<"Kembali = Rp. "<<kem<<endl;
                     }
